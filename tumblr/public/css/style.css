@@ -1,0 +1,224 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 1.34rem;
+}
+
+#wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.clear {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+  color: #CCCCCC;
+}
+
+.title, .description {
+  display: block;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.wide-block {
+  width: 100%;
+}
+
+.large-block {
+  float: left;
+  width: 73.438%;
+}
+
+.mid-block {
+  float: left;
+  width: 48.438%;
+}
+
+.small-block {
+  float: left;
+  width: 23.438%;
+}
+
+#content {
+  position: relative;
+  padding: 20px;
+  max-width: 1280px;
+}
+
+#content #metaInfo {
+  position: fixed;
+  top: 150px;
+}
+
+#content #metaInfo .userIcon {
+  display: block;
+  position: relative;
+  width: 128px;
+  height: 128px;
+  background-color: grey;
+  border-radius: 15px 0 15px 0;
+}
+
+#content #metaInfo #about {
+  display: block;
+  position: relative;
+  padding: 10px;
+  margin: 20px 0 0 0;
+}
+
+#content #metaInfo #about .title, #content #metaInfo #about .description {
+  padding: 0 0 20px 0;
+  margin: 0 0 2rem 0;
+  border-bottom: 5px solid black;
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+#content #metaInfo #about .description {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#content #metaInfo #followers {
+  position: relative;
+}
+
+#content #metaInfo #followers ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+#content #metaInfo #followers ul .followersRow {
+  margin: 0;
+}
+
+#content #posts {
+  position: relative;
+  top: 20px;
+  left: 150px;
+}
+
+#content #posts .post {
+  position: inherit;
+  margin-bottom: 50px;
+  width: 100%;
+  border: 5px solid black;
+  border-radius: 15px 0 15px 0;
+}
+
+#content #posts .post .postTitle, #content #posts .post .postQuote, #content #posts .post .postURL {
+  position: relative;
+  padding: 20px;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+#content #posts .post .postCaption, #content #posts .post .postBody, #content #posts .post .postAnswer {
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  font-size: 1.2rem;
+}
+
+#content #posts .post .postURL .fa-external-link {
+  font-size: 1.4rem;
+  color: #CCCCCC;
+}
+
+#content #posts .post .postChat {
+  width: 90%;
+  list-style: none;
+}
+
+#content #posts .post .postChat .chatName {
+  font-weight: 700;
+}
+
+#content #posts .post .postChat .odd {
+  background-color: #CCCCCC;
+}
+
+#content #posts .post .postChat .even, #content #posts .post .postChat .odd {
+  padding: 10px;
+  font-weight: 300;
+}
+
+#content #posts .post .quoteSource {
+  display: block;
+  padding: 15px;
+  font-size: 1rem;
+  font-style: italic;
+  text-align: right;
+}
+
+#content #posts .post .postQuestion {
+  background-color: #CCCCCC;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+
+#content #posts .post .postQuestion span {
+  display: block;
+  position: relative;
+  top: 20px;
+}
+
+#content #posts .post .postQuestion .asker {
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+  width: 150px;
+  font-size: 1rem;
+}
+
+#content #posts .post .postQuestion .asker a {
+  color: white;
+}
+
+#content #posts .post .postQuestion .asker .askerIcon, #content #posts .post .postQuestion .asker .askerIcon img {
+  position: relative;
+  left: -5px;
+  border-radius: 15px 0 0 0;
+}
+
+#content #posts .post .postTools {
+  position: relative;
+  padding: 15px;
+  text-align: right;
+}
+
+#content #posts .post .postTools ul {
+  list-style: none;
+}
+
+#content #posts .post .postTools ul li {
+  display: inline-block;
+  margin: 0 1rem 0 1rem;
+}
+
+#content #posts .photo .photoPreview {
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  border-radius: 15px 0 0 0;
+}
