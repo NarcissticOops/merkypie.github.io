@@ -230,8 +230,12 @@ a {
 #content #posts .post .postTools {
   position: relative;
   padding: 15px;
-  font-size: 1rem;
   text-align: right;
+}
+
+#content #posts .post .postTools ul:first-child {
+  margin-bottom: 0.51rem;
+  font-size: 1rem;
 }
 
 #content #posts .post .postTools ul {
@@ -257,11 +261,11 @@ a {
   border-radius: 15px 0 0 0;
 }
 
-#content #posts .photoset-container .photoset, #content #posts .photoset-container .photoset .photoset_row {
+#content #posts .photoset-container .photoset, #content #posts .photoset-container .photoset .photoset_row, #content #posts .photoset-container .photoset .photoset_row img {
   width: 590px;
 }
 
-#content #posts .photoset-container .photoset .photoset_row {
+#content #posts .photoset-container .photoset .photoset_row, #content #posts .photoset-container .photoset .photoset_row img .photoset_row {
   margin: 0 auto;
 }
 
