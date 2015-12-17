@@ -87,6 +87,10 @@ a {
   text-align: center;
 }
 
+#content #metaInfo #about .title a, #content #metaInfo #about .description a {
+  color: black;
+}
+
 #content #metaInfo #about .description {
   font-size: 1rem;
   font-weight: 400;
@@ -118,6 +122,18 @@ a {
   width: 100%;
   border: 5px solid black;
   border-radius: 15px 0 15px 0;
+}
+
+#content #posts .post blockquote {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 4px solid black;
+}
+
+#content #posts .post blockquote p {
+  display: block;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 
 #content #posts .post .postTitle, #content #posts .post .postQuote, #content #posts .post .postURL {
@@ -206,13 +222,15 @@ a {
 }
 
 #content #posts .post .postVideo .tumblr_video_container iframe {
-  margin: 0;
+  position: relative;
+  margin: 0 0 0 0;
   width: 591px;
 }
 
 #content #posts .post .postTools {
   position: relative;
   padding: 15px;
+  font-size: 1rem;
   text-align: right;
 }
 
@@ -237,6 +255,18 @@ a {
   background-repeat: no-repeat;
   background-size: 100% auto;
   border-radius: 15px 0 0 0;
+}
+
+#content #posts .photoset-container .photoset, #content #posts .photoset-container .photoset .photoset_row {
+  width: 590px;
+}
+
+#content #posts .photoset-container .photoset .photoset_row {
+  margin: 0 auto;
+}
+
+#content #posts .photoset-container .photoset .photoset_row img {
+  height: auto;
 }
 
 #content #posts .notes {
