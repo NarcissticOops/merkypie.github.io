@@ -239,7 +239,7 @@ a {
   text-align: right;
 }
 
-#content #posts .post .postTools ul:first-child {
+#content #posts .post .postTools ul:first-child, #content #posts .post .postTools ul:last-child {
   margin-bottom: 0.51rem;
   font-size: 1rem;
 }
