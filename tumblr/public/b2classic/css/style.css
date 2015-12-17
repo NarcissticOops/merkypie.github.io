@@ -205,7 +205,7 @@ a {
   margin-bottom: 30px;
 }
 
-#content #posts .post .postVideo iframe {
+#content #posts .post .postVideo .tumblr_video_container iframe {
   width: 591px;
 }
 
