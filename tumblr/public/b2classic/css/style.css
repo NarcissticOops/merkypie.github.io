@@ -238,3 +238,21 @@ a {
   background-size: 100% auto;
   border-radius: 15px 0 0 0;
 }
+
+#content #posts .notes {
+  list-style: none;
+  font-size: 1rem;
+}
+
+#content #posts .notes .note {
+  padding: 10px;
+  border-bottom: 4px solid black;
+}
+
+#content #posts .notes .note .action {
+  margin-left: 1rem;
+}
+
+#content #posts .notes .note blockquote {
+  margin-top: 0.55rem;
+}
