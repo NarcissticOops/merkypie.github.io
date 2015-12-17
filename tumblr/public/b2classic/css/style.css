@@ -156,6 +156,8 @@ a {
 }
 
 #content #posts .post .postChat {
+  position: relative;
+  left: -1.5rem;
   width: 90%;
   list-style: none;
 }
@@ -219,6 +221,10 @@ a {
 #content #posts .post .postVideo {
   position: relative;
   margin-bottom: 30px;
+}
+
+#content #posts .post .postVideo iframe {
+  width: 590px;
 }
 
 #content #posts .post .postVideo .tumblr_video_container iframe {
