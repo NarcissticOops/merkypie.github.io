@@ -200,6 +200,15 @@ a {
   border-radius: 15px 0 0 0;
 }
 
+#content #posts .post .postVideo {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#content #posts .post .postVideo iframe {
+  width: 591px;
+}
+
 #content #posts .post .postTools {
   position: relative;
   padding: 15px;
@@ -213,6 +222,12 @@ a {
 #content #posts .post .postTools ul li {
   display: inline-block;
   margin: 0 1rem 0 1rem;
+  color: #CCCCCC;
+}
+
+#content #posts .post .postTools ul li .playcount {
+  font-size: 1rem;
+  font-style: italic;
 }
 
 #content #posts .photo .photoPreview {
