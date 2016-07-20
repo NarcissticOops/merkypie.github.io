@@ -1,0 +1,40 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  max-width: 1280px;
+}
+
+header#topHeader {
+  width: 100%;
+}
+
+#tagLine {
+  position: relative;
+  float: left;
+}
+
+header > h1 {
+  position: relative;
+  display: block;
+  font-size: 3rem;
+  width: 680px;
+  float: left;
+  text-align: center;
+}
+
+#edition {
+  position: relative;
+  float: right;
+  width: 200px;
+}
+
+
+/* What */
+
+section {
+    clear: both;
+}
