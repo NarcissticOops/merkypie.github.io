@@ -1,8 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=UnifrakturMaguntia);
+
 * {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
 }
+
+
+
+/* Grids */
+
+.small {
+  position: relative;
+  max-width: 45%;
+}
+
+.large {
+  position: relative;
+  width: 50%;
+}
+
+.left {
+  float: left;
+  clear: right;
+}
+
+.right {
+  float: right;
+  clear: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.smallArticles, .topArticle {
+  overflow: auto;
+}
+
+/* Content */
 
 #wrapper {
   max-width: 1280px;
@@ -10,6 +46,27 @@
 
 header#topHeader {
   width: 100%;
+}
+
+header#topHeader > h1 {
+  position: relative;
+  display: block;
+  margin: 50px 5%;
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 4.5rem;
+}
+
+#tagLine {
+  display: block;
+  position: absolute;
+  padding: 2%;
+  margin: 30px 0;
+  width: 220px;
+  height: 100px;
+  border: 1px solid black;
+  font-size: 1.3rem;
+  overflow: auto;
+  text-align: center;
 }
 
 #tagLine {
@@ -29,7 +86,36 @@ header > h1 {
 #edition {
   position: relative;
   float: right;
-  width: 200px;
+  width: 250px;
+}
+
+#edition > strong {
+  position: relative;
+  display: block;
+  margin: 30px 0 10px 0;
+  font-family: 'Ariel', sans-serif;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+/* Issue Information */
+
+#issueInformation {
+  position: relative;
+  width: 100%;
+  padding: 10px 0 10px 0;
+  margin: 10px 0;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+}
+
+#issueInformation > span {
+    display: block;
+}
+
+span.volumeIssue {
+  margin: 14px 8%;
 }
 
 
